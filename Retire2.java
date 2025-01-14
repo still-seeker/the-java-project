@@ -32,7 +32,7 @@ public class Retire2 {
                 System.out.printf("After year %d, your balance is %.2f%n", year, balance);
                 //ask if ready to retire
                 System.out.println("Hello " + name + ", are you ready to retire?");
-                System.out.print("(Y/N) ?");
+                System.out.print("(Y/N) ? ");
                 prompt = input.next();
             } while(prompt.equals("N"));
             
