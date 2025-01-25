@@ -56,7 +56,7 @@ class Employee {
 
     @Override
     public String toString(){
-        return  this.getHireDay() + "NAME: " + this.getName() + ", SALARY: " +this.getSalary() +
-                ", HIREDAY: ";
+        return   "NAME: " + this.getName() + ", SALARY: " +this.getSalary() +
+                ", HIREDAY: " + this.getHireDay();
     }
 }
